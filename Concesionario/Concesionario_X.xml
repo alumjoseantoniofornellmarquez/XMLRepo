@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Definicion del documento XML-->
+<Coches2Mano xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Concesionario.xsd">
+    <coche>
+        <codigo>12588215</codigo>
+        <marca>Opel</marca>
+        <modelo>Astra</modelo>
+        <matricula>4879-DCD</matricula>
+        <potencia>100</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+    <coche>
+        <codigo>4489121</codigo>
+        <marca>BMW</marca>
+        <modelo>Serie 1</modelo>
+        <matricula>3212-LPK</matricula>
+        <potencia>116</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+    <coche>
+        <codigo>7789145</codigo>
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <matricula>7784JKL</matricula>
+        <potencia>130</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+</Coches2Mano>

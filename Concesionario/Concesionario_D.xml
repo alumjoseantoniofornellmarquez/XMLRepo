@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Definicion del documento XML-->
+
+<!DOCTYPE Coches2Mano
+[
+<!ELEMENT Coches2Mano (coche*)>
+
+<!ELEMENT coche (codigo,marca,modelo,matricula,potencia,plazas,puertas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT puertas (#PCDATA)>
+]>
+
+<Coches2Mano>
+    <coche>
+        <codigo>12588-215</codigo>
+        <marca>Opel</marca>
+        <modelo>Astra</modelo>
+        <matricula>4879-DCD</matricula>
+        <potencia>100</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+    <coche>
+        <codigo>4489-121</codigo>
+        <marca>BMW</marca>
+        <modelo>Serie 1</modelo>
+        <matricula>3212-LPK</matricula>
+        <potencia>116</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+    <coche>
+        <codigo>7789-145</codigo>
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <matricula>7784-JKL</matricula>
+        <potencia>130</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+</Coches2Mano>
