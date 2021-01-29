@@ -17,10 +17,11 @@
                                                     <xs:element name="nombre" type="xs:string" />
                                                 </xs:sequence>
                                             </xs:complexType>
-                                        <xs:element name="titulo" type="xs:string" />
-                                        <xs:element name="editorial" type="xs:string" />
-                                        <xs:element name="f.publicacion" type="xs:date" />
-                                        <xs:element name="ISBN" type="xs:string" />
+                                        </xs:element>
+                            <xs:element name="titulo" type="xs:string" />
+                            <xs:element name="editorial" type="xs:string" />
+                            <xs:element name="f.publicacion" type="xs:date" />
+                            <xs:element name="ISBN" type="xs:string" />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
