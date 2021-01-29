@@ -12,19 +12,19 @@
                                         <xs:element name="autor" maxOccurs="3">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="ape1" type="xs:string" />
-                                                    <xs:element name="ape2" type="xs:string" />
-                                                    <xs:element name="nombre" type="xs:string" />
+                                                    <xs:element name="ape1" type="xs:string"/>
+                                                    <xs:element name="ape2" type="xs:string"/>
+                                                    <xs:element name="nombre" type="xs:string"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="titulo" type="xs:string" />
-                            <xs:element name="editorial" type="xs:string" />
-                            <xs:element name="f.publicacion" type="xs:date" />
-                            <xs:element name="ISBN" type="xs:string" />
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="editorial" type="xs:string"/>
+                            <xs:element name="f.publicacion" type="xs:date"/>
+                            <xs:element name="ISBN" type="xs:string"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
