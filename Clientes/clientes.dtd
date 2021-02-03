@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT Clientes (Sede)*>
+<!ELEMENT Sede (Direccion|Empleado|Fecha|Descripcion|Cliente)>
+<!ELEMENT Cliente (Numero_viviendas|Coste|Resumen|Plazo)>
+<!ELEMENT Direccion +

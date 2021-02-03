@@ -4,6 +4,7 @@
 xsi:noNamespaceSchemaLocation="clientes.xsd">
     <Sede codigoSede="A1234567">
         <Direccion>Calle de la desesperación</Direccion>
+        <Direccion>Calle de la amargura</Direccion>
         <Empleado>Pepe Suarez</Empleado>
         <Fecha>03/02/2021</Fecha>
         <Descripcion>Solvente</Descripcion>
@@ -14,8 +15,8 @@ xsi:noNamespaceSchemaLocation="clientes.xsd">
             <Plazo>15/09/2021</Plazo>
         </Cliente>
     </Sede>
-    <Sede codigoSede="A1234567">
-        <Direccion>Calle de la desesperación</Direccion>
+    <Sede codigoSede="B7654321">
+        <Direccion>Calle de la desesperación 2</Direccion>
         <Empleado>Marta Sanchez</Empleado>
         <Fecha>20/02/2021</Fecha>
         <Descripcion>Solvente</Descripcion>
@@ -27,7 +28,7 @@ xsi:noNamespaceSchemaLocation="clientes.xsd">
         </Cliente>
     </Sede>
     <Sede codigoSede="C123654">
-        <Direccion>Calle de la desesperación</Direccion>
+        <Direccion>Calle de la desesperación 5</Direccion>
         <Empleado>Juan Perez</Empleado>
         <Fecha>20/04/2021</Fecha>
         <Descripcion>Insolvente</Descripcion>
