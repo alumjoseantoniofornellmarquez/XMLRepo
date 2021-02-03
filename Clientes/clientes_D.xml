@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Definicion del documento XML-->
+<!DOCTYPE Clientes SYSTEM "clientes.dtd">
+<Clientes>
+    <Sede codigoSede="A1234567">
+        <Direccion>Calle de la desesperación</Direccion>
+        <Empleado>Pepe Suarez</Empleado>
+        <Fecha>03/02/2021</Fecha>
+        <Descripcion>Solvente</Descripcion>
+        <Cliente codigoCliente="ABC-123">
+            <Numero_viviendas>2</Numero_viviendas>
+            <Coste>145.000€</Coste>
+            <Resumen>Adosado</Resumen>
+            <Plazo>15/09/2021</Plazo>
+        </Cliente>
+    </Sede>
+    <Sede codigoSede="A1234567">
+        <Direccion>Calle de la desesperación</Direccion>
+        <Empleado>Marta Sanchez</Empleado>
+        <Fecha>20/02/2021</Fecha>
+        <Descripcion>Solvente</Descripcion>
+        <Cliente codigoCliente="DEF-456">
+            <Numero_viviendas>1</Numero_viviendas>
+            <Coste>250.000€</Coste>
+            <Resumen>Piso</Resumen>
+            <Plazo>25/12/2021</Plazo>
+        </Cliente>
+    </Sede>
+    <Sede codigoSede="C123654">
+        <Direccion>Calle de la desesperación</Direccion>
+        <Empleado>Juan Perez</Empleado>
+        <Fecha>20/04/2021</Fecha>
+        <Descripcion>Insolvente</Descripcion>
+        <Cliente codigoCliente="GHI-789">
+            <Numero_viviendas>1</Numero_viviendas>
+            <Coste>130.000€</Coste>
+            <Resumen>Piso</Resumen>
+            <Plazo>15/06/2021</Plazo>
+        </Cliente>
+    </Sede>
+</Clientes>
