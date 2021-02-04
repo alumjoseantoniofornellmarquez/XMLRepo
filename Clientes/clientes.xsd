@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+        <xs:element name="Clientes">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Sede">
+                        <xs:attribute name="codigoSede" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[A-Za-z]{1}[0-9]{7}"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:element>
+                </xs:squence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
