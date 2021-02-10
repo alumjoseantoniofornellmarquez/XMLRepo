@@ -8,6 +8,8 @@
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
                                     <xs:pattern value="[A-Za-z]{1}[0-9]{7}"/>
+
+                                    
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:attribute>
