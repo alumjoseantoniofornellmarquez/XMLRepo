@@ -6,7 +6,7 @@ xsi:noNamespaceSchemaLocation="clientes.xsd">
         <Direccion>Calle de la desesperación</Direccion>
         <Direccion>Calle de la amargura</Direccion>
         <Empleado>Pepe Suarez</Empleado>
-        <Fecha>03/02/2021</Fecha>
+        <Fecha>2021-02-03</Fecha>
         <Descripcion>Solvente</Descripcion>
         <Cliente codigoCliente="ABC-123">
             <Numero_viviendas>2</Numero_viviendas>
